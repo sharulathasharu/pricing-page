@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourTechSolutions Pricing</title>
+    <style>
+     
+        @font-face {
+            font-family: 'NeonFont';
+            src: url('--path-to-your-neon-font.woff2') format('woff2');
+       
+        }
+
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #111;
+            margin: 0;
+            padding: 0;
+        }
+
+        .pricing-cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            padding: 20px;
+        }
+
+        .pricing-card {
+            background-color: #000;
+            border: 4px solid rgb(189, 68, 47);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 102, 204, 0.5);
+            padding: 20px;
+            text-align: center;
+            color: #f06;
+            font-family: 'NeonFont', sans-serif;
+        }
+
+        .pricing-card h2 {
+            font-size: 28px;
+            color: #f06;
+            margin: 10px 0;
+        }
+
+        .pricing-card p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .pricing-card .price {
+            font-size: 36px;
+            font-weight: bold;
+            color: rgb(162, 0, 255);
+            margin: 20px 0;
+        }
+
+        .pricing-card .btn {
+            background-color: rgb(44, 52, 102);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-cards-container">
+        <div class="pricing-card">
+            <h2>TechSolutions Pro</h2>
+            <p>Unlock the power of technology with TechSolutions Pro.</p>
+            <p>Features:</p>
+            <ul>
+                <li>24/7 Priority Support</li>
+                <li>Access to Exclusive Tech Services</li>
+                <li>Enhanced Security Suite</li>
+                <li>Unlimited Cloud Storage</li>
+                <li>Weekly Updates</li>
+            </ul>
+            <p class="price">$299.99/month</p>
+            <a href="#" class="btn">Get TechSolutions Pro</a>
+        </div>
+
+        <div class="pricing-card">
+            <h2>TechSolutions Premium</h2>
+            <p>Elevate your tech experience with TechSolutions Premium.</p>
+            <p>Features:</p>
+            <ul>
+                <li>24/7 Priority Support</li>
+                <li>Access to Exclusive Tech Services</li>
+                <li>Enhanced Security Suite</li>
+                <li>Unlimited Cloud Storage</li>
+                <li>Daily Updates</li>
+            </ul>
+            <p class="price">$399.99/month</p>
+            <a href="#" class="btn">Get TechSolutions Premium</a>
+        </div>
+    </div>
+</body>
+</html>
